@@ -1,8 +1,7 @@
 import requests
 import json
+from .key import API_KEY
 
-
-API_KEY =  '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'
 
 HEADERS = {
     'Authorization': f'Bearer {API_KEY}',
